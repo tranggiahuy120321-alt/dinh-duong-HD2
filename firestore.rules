@@ -1,0 +1,50 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Global default-deny safety net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function isValidIngredientsCatalog(data) {
+      return data.keys().hasAll(['list'])
+        && data.keys().size() == 1
+        && data.list is list
+        && data.list.size() <= 1000;
+    }
+
+    function isValidSavedMenu(data) {
+      return data.keys().hasAll(['id', 'name', 'ageGroup', 'childrenCount', 'budgetPerChild', 'meals', 'updatedAt'])
+        && data.keys().size() == 7
+        && data.id is string && data.id.size() <= 128
+        && data.name is string && data.name.size() <= 200
+        && data.ageGroup is string && data.ageGroup.size() <= 50
+        && data.childrenCount is number
+        && data.budgetPerChild is number
+        && data.meals is list
+        && data.meals.size() <= 20
+        && data.updatedAt is string && data.updatedAt.size() <= 50;
+    }
+
+    // Collection: app_data/ingredients_catalog
+    match /app_data/ingredients_catalog {
+      allow get: if true;
+      allow create, update: if isValidIngredientsCatalog(request.resource.data);
+      allow delete: if false;
+    }
+
+    // Collection: saved_menus
+    match /saved_menus/{menuId} {
+      allow get: if isValidId(menuId);
+      allow list: if true;
+      allow create: if isValidId(menuId) && isValidSavedMenu(request.resource.data);
+      allow update: if isValidId(menuId) && isValidSavedMenu(request.resource.data);
+      allow delete: if isValidId(menuId);
+    }
+  }
+}

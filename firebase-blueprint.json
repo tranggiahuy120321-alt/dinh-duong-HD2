@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "IngredientsCatalog": {
+      "title": "IngredientsCatalog",
+      "description": "Danh mục thực phẩm lưu trữ tùy biến học đường",
+      "type": "object",
+      "properties": {
+        "list": {
+          "type": "array",
+          "description": "Danh sách thực phẩm"
+        }
+      },
+      "required": [
+        "list"
+      ]
+    },
+    "SavedMenu": {
+      "title": "SavedMenu",
+      "description": "Thực đơn mầm non đã tính toán và lưu trữ",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "ageGroup": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "childrenCount": {
+          "type": "number"
+        },
+        "budgetPerChild": {
+          "type": "number"
+        },
+        "meals": {
+          "type": "array"
+        },
+        "updatedAt": {
+          "type": "string",
+          "maxLength": 50
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "ageGroup",
+        "childrenCount",
+        "budgetPerChild",
+        "meals",
+        "updatedAt"
+      ]
+    }
+  },
+  "firestore": {
+    "app_data/ingredients_catalog": {
+      "schema": "IngredientsCatalog",
+      "description": "Danh mục thực phẩm dùng chung"
+    },
+    "saved_menus/{menuId}": {
+      "schema": "SavedMenu",
+      "description": "Danh sách thực đơn dinh dưỡng đã lưu của trường"
+    }
+  }
+}

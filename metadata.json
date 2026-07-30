@@ -1,0 +1,8 @@
+{
+  "name": "Dinh dưỡng Lớp mẫu giáo Hướng Dương 2",
+  "description": "Phần mềm tính khẩu phần ăn tự động và quản lý dinh dưỡng cho trường mầm non theo quy chuẩn Bộ Giáo dục \u0026 Đào tạo Việt Nam",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

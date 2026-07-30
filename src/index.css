@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-natural-bg: #FAF9F6;
+  --color-natural-text: #43413E;
+  --color-natural-muted: #8A8479;
+  --color-natural-panel: #F2EDE4;
+  --color-natural-dark: #2D2B28;
+  --color-natural-primary: #5B8C5A;
+  --color-natural-primary-hover: #4a7249;
+  --color-natural-hover: #EAE4D8;
+  --color-natural-border: #E5E0D5;
+  --color-natural-accent-orange: #D4A373;
+  --color-natural-accent-green: #E9EDC9;
+  --color-natural-light: #F9F7F2;
+}
+
+/* Tối ưu hóa in ấn trực tiếp qua trình duyệt */
+@media print {
+  /* Ẩn toàn bộ nội dung mặc định của trang */
+  body * {
+    visibility: hidden;
+  }
+  
+  /* Chỉ hiển thị riêng khu vực báo cáo dinh dưỡng */
+  #printable-report, #printable-report * {
+    visibility: visible;
+  }
+  
+  /* Định vị báo cáo ở đầu trang in và căng rộng tối đa */
+  #printable-report {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: white !important;
+  }
+  
+  /* Thiết lập nền trắng cho toàn bộ trang in */
+  html, body {
+    background-color: white !important;
+    background-image: none !important;
+    color: #2D2B28 !important;
+  }
+
+  /* Tránh ngắt trang giữa dòng của bảng biểu hoặc chữ ký */
+  tr, blockquote, table, div {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}
+

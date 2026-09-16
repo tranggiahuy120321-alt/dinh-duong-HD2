@@ -1,0 +1,1100 @@
+import { SavedMenu } from '../types';
+
+export const DEFAULT_WEEKLY_MENUS: SavedMenu[] = [
+  {
+    "ageGroup": "lop_ghep",
+    "childrenCount": 57,
+    "updatedAt": "15/9/2026",
+    "name": "Thứ 2",
+    "meals": [
+      {
+        "id": "meal_sáng",
+        "name": "Bữa sáng chính (07:30)",
+        "dishes": [
+          {
+            "name": "Bánh lọt thịt bằm",
+            "id": "dish_sáng_t2",
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_21",
+                "quantityPerChild": 80
+              },
+              {
+                "ingredientId": "thit_thuy_san_22",
+                "quantityPerChild": 25
+              },
+              {
+                "quantityPerChild": 3,
+                "ingredientId": "chat_beo_01"
+              },
+              {
+                "ingredientId": "gia_vi_03",
+                "quantityPerChild": 1.5
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_04"
+              },
+              {
+                "ingredientId": "rau_cu_qua_23",
+                "quantityPerChild": 20
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "tinh_bot_06"
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "gia_vi_11"
+              },
+              {
+                "quantityPerChild": 1000,
+                "ingredientId": "custom_1789384528938"
+              },
+              {
+                "ingredientId": "custom_1789470264181",
+                "quantityPerChild": 42
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bữa trưa dinh dưỡng (10:30)",
+        "dishes": [
+          {
+            "id": "dish_cơm_t2",
+            "name": "Cơm tẻ dẻo mầm non",
+            "ingredients": [
+              {
+                "quantityPerChild": 70,
+                "ingredientId": "tinh_bot_01"
+              }
+            ]
+          },
+          {
+            "name": "Trứng chiên hành hoa",
+            "id": "dish_mặn_t2",
+            "ingredients": [
+              {
+                "ingredientId": "sua_trung_02",
+                "quantityPerChild": 60
+              },
+              {
+                "ingredientId": "chat_beo_01",
+                "quantityPerChild": 4
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "gia_vi_07"
+              },
+              {
+                "quantityPerChild": 1.5,
+                "ingredientId": "gia_vi_03"
+              }
+            ]
+          },
+          {
+            "ingredients": [
+              {
+                "ingredientId": "rau_cu_qua_03",
+                "quantityPerChild": 40
+              },
+              {
+                "ingredientId": "chat_beo_01",
+                "quantityPerChild": 2
+              },
+              {
+                "quantityPerChild": 1,
+                "ingredientId": "gia_vi_03"
+              },
+              {
+                "quantityPerChild": 12,
+                "ingredientId": "custom_1789383832717"
+              },
+              {
+                "ingredientId": "gia_vi_11",
+                "quantityPerChild": 2
+              }
+            ],
+            "name": "Canh rau cải ngọt tép khô",
+            "id": "dish_canh_t2"
+          },
+          {
+            "name": "Tráng miệng: Chuối chín",
+            "ingredients": [
+              {
+                "ingredientId": "trai_cay_01",
+                "quantityPerChild": 60
+              }
+            ],
+            "id": "dish_tráng_miệng_t2"
+          }
+        ],
+        "id": "meal_trưa"
+      },
+      {
+        "dishes": [
+          {
+            "name": "Cháo thịt heo nạc thơm ngon",
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_01",
+                "quantityPerChild": 45
+              },
+              {
+                "quantityPerChild": 3,
+                "ingredientId": "chat_beo_01"
+              },
+              {
+                "ingredientId": "gia_vi_03",
+                "quantityPerChild": 1
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_04"
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_23"
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "tinh_bot_06"
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "gia_vi_11"
+              },
+              {
+                "quantityPerChild": 30,
+                "ingredientId": "thit_thuy_san_22"
+              }
+            ],
+            "id": "dish_xế_t2"
+          }
+        ],
+        "name": "Bữa phụ xế chiều (14:30)",
+        "id": "meal_xế_chiều"
+      }
+    ],
+    "budgetPerChild": 35000,
+    "id": "menu_1789470312863"
+  },
+  {
+    "childrenCount": 57,
+    "id": "menu_1789471345693",
+    "name": "Thứ 3",
+    "meals": [
+      {
+        "id": "meal_sáng",
+        "name": "Bữa sáng chính (07:30)",
+        "dishes": [
+          {
+            "id": "dish_sáng_t3",
+            "name": "Bún thịt bằm ấm nóng",
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_07",
+                "quantityPerChild": 50
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "thit_thuy_san_22"
+              },
+              {
+                "ingredientId": "chat_beo_01",
+                "quantityPerChild": 3
+              },
+              {
+                "quantityPerChild": 1.5,
+                "ingredientId": "gia_vi_03"
+              },
+              {
+                "ingredientId": "rau_cu_qua_04",
+                "quantityPerChild": 20
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "gia_vi_11"
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "tinh_bot_06"
+              },
+              {
+                "quantityPerChild": 1000,
+                "ingredientId": "custom_1789384528938"
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_23"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dishes": [
+          {
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_01",
+                "quantityPerChild": 70
+              }
+            ],
+            "name": "Cơm tẻ dẻo mầm non",
+            "id": "dish_cơm_t3"
+          },
+          {
+            "name": "Thịt kho su su tàu hủ",
+            "id": "dish_mặn_t3",
+            "ingredients": [
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "thit_thuy_san_20"
+              },
+              {
+                "quantityPerChild": 3,
+                "ingredientId": "chat_beo_01"
+              },
+              {
+                "ingredientId": "gia_vi_03",
+                "quantityPerChild": 2
+              },
+              {
+                "ingredientId": "gia_vi_11",
+                "quantityPerChild": 2
+              },
+              {
+                "quantityPerChild": 40,
+                "ingredientId": "thit_thuy_san_22"
+              },
+              {
+                "quantityPerChild": 40,
+                "ingredientId": "rau_cu_qua_23"
+              }
+            ]
+          },
+          {
+            "name": "Canh bí đỏ thịt gà",
+            "id": "dish_canh_t3",
+            "ingredients": [
+              {
+                "ingredientId": "rau_cu_qua_05",
+                "quantityPerChild": 40
+              },
+              {
+                "quantityPerChild": 12,
+                "ingredientId": "thit_thuy_san_06"
+              },
+              {
+                "ingredientId": "chat_beo_01",
+                "quantityPerChild": 2
+              },
+              {
+                "quantityPerChild": 1,
+                "ingredientId": "gia_vi_03"
+              },
+              {
+                "ingredientId": "gia_vi_11",
+                "quantityPerChild": 2
+              }
+            ]
+          },
+          {
+            "name": "Tráng miệng: Dưa hấu ngọt",
+            "id": "dish_tráng_miệng_t3",
+            "ingredients": [
+              {
+                "ingredientId": "trai_cay_04",
+                "quantityPerChild": 70
+              }
+            ]
+          }
+        ],
+        "name": "Bữa trưa dinh dưỡng (10:30)",
+        "id": "meal_trưa"
+      },
+      {
+        "id": "meal_xế_chiều",
+        "dishes": [
+          {
+            "id": "dish_xế_t3",
+            "name": "Mì gói thịt bằm",
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_10",
+                "quantityPerChild": 40
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "thit_thuy_san_22"
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "chat_beo_01"
+              },
+              {
+                "ingredientId": "rau_cu_qua_04",
+                "quantityPerChild": 20
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "tinh_bot_06"
+              },
+              {
+                "ingredientId": "gia_vi_11",
+                "quantityPerChild": 2
+              },
+              {
+                "ingredientId": "rau_cu_qua_23",
+                "quantityPerChild": 20
+              }
+            ]
+          }
+        ],
+        "name": "Bữa phụ xế chiều (14:30)"
+      }
+    ],
+    "updatedAt": "15/9/2026",
+    "ageGroup": "lop_ghep",
+    "budgetPerChild": 35000
+  },
+  {
+    "childrenCount": 57,
+    "ageGroup": "lop_ghep",
+    "name": "Thứ 4",
+    "id": "menu_1789472193676",
+    "meals": [
+      {
+        "name": "Bữa sáng chính (07:30)",
+        "dishes": [
+          {
+            "id": "dish_sáng_t4",
+            "name": "Mì tươi thịt bằm dẻo ngon",
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_22",
+                "quantityPerChild": 80
+              },
+              {
+                "quantityPerChild": 25,
+                "ingredientId": "thit_thuy_san_22"
+              },
+              {
+                "ingredientId": "chat_beo_01",
+                "quantityPerChild": 3
+              },
+              {
+                "quantityPerChild": 1.5,
+                "ingredientId": "gia_vi_03"
+              },
+              {
+                "ingredientId": "rau_cu_qua_17",
+                "quantityPerChild": 20
+              },
+              {
+                "ingredientId": "rau_cu_qua_04",
+                "quantityPerChild": 20
+              },
+              {
+                "ingredientId": "tinh_bot_06",
+                "quantityPerChild": 20
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "gia_vi_11"
+              },
+              {
+                "ingredientId": "custom_1789384528938",
+                "quantityPerChild": 1000
+              }
+            ]
+          }
+        ],
+        "id": "meal_sáng"
+      },
+      {
+        "dishes": [
+          {
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_01",
+                "quantityPerChild": 70
+              }
+            ],
+            "id": "dish_cơm_t4",
+            "name": "Cơm tẻ dẻo mầm non"
+          },
+          {
+            "ingredients": [
+              {
+                "ingredientId": "rau_cu_qua_07",
+                "quantityPerChild": 20
+              },
+              {
+                "quantityPerChild": 4,
+                "ingredientId": "chat_beo_01"
+              },
+              {
+                "ingredientId": "gia_vi_03",
+                "quantityPerChild": 1.5
+              },
+              {
+                "quantityPerChild": 50,
+                "ingredientId": "custom_1789382789071"
+              },
+              {
+                "ingredientId": "gia_vi_11",
+                "quantityPerChild": 2
+              }
+            ],
+            "id": "dish_mặn_t4",
+            "name": "Cá sốt cà chua"
+          },
+          {
+            "ingredients": [
+              {
+                "ingredientId": "rau_cu_qua_11",
+                "quantityPerChild": 40
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "chat_beo_01"
+              },
+              {
+                "ingredientId": "gia_vi_03",
+                "quantityPerChild": 1
+              },
+              {
+                "ingredientId": "gia_vi_11",
+                "quantityPerChild": 2
+              },
+              {
+                "ingredientId": "custom_1789383832717",
+                "quantityPerChild": 10
+              }
+            ],
+            "id": "dish_canh_t4",
+            "name": "Canh bắp cải tôm khô"
+          },
+          {
+            "id": "dish_tráng_miệng_t4",
+            "name": "Tráng miệng: Táo đỏ ngọt",
+            "ingredients": [
+              {
+                "ingredientId": "trai_cay_07",
+                "quantityPerChild": 65
+              }
+            ]
+          }
+        ],
+        "name": "Bữa trưa dinh dưỡng (10:30)",
+        "id": "meal_trưa"
+      },
+      {
+        "name": "Bữa phụ xế chiều (14:30)",
+        "id": "meal_xế_chiều",
+        "dishes": [
+          {
+            "name": "Cháo cá",
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_01",
+                "quantityPerChild": 45
+              },
+              {
+                "ingredientId": "chat_beo_01",
+                "quantityPerChild": 3
+              },
+              {
+                "ingredientId": "gia_vi_07",
+                "quantityPerChild": 2
+              },
+              {
+                "quantityPerChild": 1,
+                "ingredientId": "gia_vi_03"
+              },
+              {
+                "ingredientId": "rau_cu_qua_17",
+                "quantityPerChild": 20
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_04"
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "tinh_bot_06"
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "gia_vi_11"
+              },
+              {
+                "ingredientId": "tinh_bot_15",
+                "quantityPerChild": 10
+              },
+              {
+                "ingredientId": "custom_1789400763638",
+                "quantityPerChild": 20
+              }
+            ],
+            "id": "dish_xế_t4"
+          }
+        ]
+      }
+    ],
+    "updatedAt": "15/9/2026",
+    "budgetPerChild": 35000
+  },
+  {
+    "name": "Thứ 5",
+    "updatedAt": "15/9/2026",
+    "ageGroup": "lop_ghep",
+    "id": "menu_1789473102104",
+    "budgetPerChild": 35000,
+    "childrenCount": 57,
+    "meals": [
+      {
+        "dishes": [
+          {
+            "ingredients": [
+              {
+                "quantityPerChild": 45,
+                "ingredientId": "tinh_bot_23"
+              },
+              {
+                "ingredientId": "thit_thuy_san_22",
+                "quantityPerChild": 25
+              },
+              {
+                "quantityPerChild": 3,
+                "ingredientId": "chat_beo_01"
+              },
+              {
+                "ingredientId": "gia_vi_03",
+                "quantityPerChild": 1.5
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_17"
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_04"
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "tinh_bot_06"
+              },
+              {
+                "ingredientId": "gia_vi_11",
+                "quantityPerChild": 2
+              },
+              {
+                "quantityPerChild": 1000,
+                "ingredientId": "custom_1789384528938"
+              },
+              {
+                "quantityPerChild": 25,
+                "ingredientId": "custom_1789472604546"
+              }
+            ],
+            "name": "Hủ tiếu thịt bằm miền Nam",
+            "id": "dish_sáng_t5"
+          }
+        ],
+        "name": "Bữa sáng chính (07:30)",
+        "id": "meal_sáng"
+      },
+      {
+        "name": "Bữa trưa dinh dưỡng (10:30)",
+        "id": "meal_trưa",
+        "dishes": [
+          {
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_01",
+                "quantityPerChild": 70
+              }
+            ],
+            "name": "Cơm tẻ dẻo mầm non",
+            "id": "dish_cơm_t5"
+          },
+          {
+            "name": "Bò kho khoai tây",
+            "id": "dish_mặn_t5",
+            "ingredients": [
+              {
+                "quantityPerChild": 4,
+                "ingredientId": "chat_beo_01"
+              },
+              {
+                "ingredientId": "gia_vi_07",
+                "quantityPerChild": 2
+              },
+              {
+                "ingredientId": "gia_vi_03",
+                "quantityPerChild": 1.5
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "gia_vi_11"
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "tinh_bot_04"
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "custom_1789401370498"
+              }
+            ]
+          },
+          {
+            "id": "dish_canh_t5",
+            "name": "Canh rau mồng tơi thịt gà",
+            "ingredients": [
+              {
+                "ingredientId": "rau_cu_qua_10",
+                "quantityPerChild": 40
+              },
+              {
+                "ingredientId": "thit_thuy_san_06",
+                "quantityPerChild": 12
+              },
+              {
+                "ingredientId": "chat_beo_01",
+                "quantityPerChild": 2
+              },
+              {
+                "quantityPerChild": 1,
+                "ingredientId": "gia_vi_03"
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "gia_vi_11"
+              }
+            ]
+          },
+          {
+            "ingredients": [
+              {
+                "ingredientId": "trai_cay_06",
+                "quantityPerChild": 60
+              }
+            ],
+            "name": "Tráng miệng: Xoài chín cát chu",
+            "id": "dish_tráng_miệng_t5"
+          }
+        ]
+      },
+      {
+        "dishes": [
+          {
+            "name": "Nui thịt gà ",
+            "id": "dish_xế_t5",
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_19",
+                "quantityPerChild": 40
+              },
+              {
+                "ingredientId": "thit_thuy_san_06",
+                "quantityPerChild": 20
+              },
+              {
+                "quantityPerChild": 3,
+                "ingredientId": "chat_beo_01"
+              },
+              {
+                "ingredientId": "gia_vi_03",
+                "quantityPerChild": 1
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_17"
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_04"
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "tinh_bot_06"
+              },
+              {
+                "ingredientId": "gia_vi_11",
+                "quantityPerChild": 2
+              }
+            ]
+          }
+        ],
+        "id": "meal_xế_chiều",
+        "name": "Bữa phụ xế chiều (14:30)"
+      }
+    ]
+  },
+  {
+    "id": "menu_1789473662094",
+    "meals": [
+      {
+        "name": "Bữa sáng chính (07:30)",
+        "id": "meal_sáng",
+        "dishes": [
+          {
+            "name": "Phở thịt bằm thơm lừng",
+            "id": "dish_sáng_t6",
+            "ingredients": [
+              {
+                "quantityPerChild": 50,
+                "ingredientId": "tinh_bot_08"
+              },
+              {
+                "quantityPerChild": 15,
+                "ingredientId": "thit_thuy_san_22"
+              },
+              {
+                "ingredientId": "chat_beo_01",
+                "quantityPerChild": 3
+              },
+              {
+                "ingredientId": "gia_vi_03",
+                "quantityPerChild": 1.5
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_04"
+              },
+              {
+                "ingredientId": "tinh_bot_06",
+                "quantityPerChild": 20
+              },
+              {
+                "ingredientId": "gia_vi_11",
+                "quantityPerChild": 2
+              },
+              {
+                "quantityPerChild": 1000,
+                "ingredientId": "custom_1789384528938"
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_23"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bữa trưa dinh dưỡng (10:30)",
+        "dishes": [
+          {
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_01",
+                "quantityPerChild": 70
+              }
+            ],
+            "name": "Cơm tẻ dẻo mầm non",
+            "id": "dish_cơm_t6"
+          },
+          {
+            "name": "Thịt kho bí đao thanh mát",
+            "id": "dish_mặn_t6",
+            "ingredients": [
+              {
+                "quantityPerChild": 25,
+                "ingredientId": "rau_cu_qua_06"
+              },
+              {
+                "quantityPerChild": 3,
+                "ingredientId": "chat_beo_01"
+              },
+              {
+                "ingredientId": "gia_vi_03",
+                "quantityPerChild": 2
+              },
+              {
+                "ingredientId": "gia_vi_11",
+                "quantityPerChild": 2
+              },
+              {
+                "quantityPerChild": 30,
+                "ingredientId": "thit_thuy_san_22"
+              }
+            ]
+          },
+          {
+            "id": "dish_canh_t6",
+            "ingredients": [
+              {
+                "ingredientId": "chat_beo_01",
+                "quantityPerChild": 2
+              },
+              {
+                "ingredientId": "gia_vi_03",
+                "quantityPerChild": 1
+              },
+              {
+                "quantityPerChild": 28,
+                "ingredientId": "custom_1789386576097"
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "gia_vi_11"
+              },
+              {
+                "quantityPerChild": 4,
+                "ingredientId": "custom_1789383832717"
+              }
+            ],
+            "name": "Canh khoai mỡ tôm khô đậm đà"
+          },
+          {
+            "name": "Tráng miệng: Lê đường giòn ngọt",
+            "ingredients": [
+              {
+                "ingredientId": "trai_cay_13",
+                "quantityPerChild": 65
+              }
+            ],
+            "id": "dish_tráng_miệng_t6"
+          }
+        ],
+        "id": "meal_trưa"
+      },
+      {
+        "name": "Bữa phụ xế chiều (14:30)",
+        "id": "meal_xế_chiều",
+        "dishes": [
+          {
+            "id": "dish_xế_t6",
+            "name": "Cháo tôm",
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_01",
+                "quantityPerChild": 45
+              },
+              {
+                "ingredientId": "chat_beo_01",
+                "quantityPerChild": 3
+              },
+              {
+                "quantityPerChild": 1,
+                "ingredientId": "gia_vi_03"
+              },
+              {
+                "ingredientId": "thit_thuy_san_12",
+                "quantityPerChild": 11
+              },
+              {
+                "ingredientId": "rau_cu_qua_04",
+                "quantityPerChild": 20
+              },
+              {
+                "quantityPerChild": 10,
+                "ingredientId": "rau_cu_qua_05"
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "gia_vi_11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "updatedAt": "15/9/2026",
+    "ageGroup": "lop_ghep",
+    "childrenCount": 57,
+    "budgetPerChild": 35000,
+    "name": "Thứ 6"
+  },
+  {
+    "childrenCount": 57,
+    "id": "menu_1789474421769",
+    "ageGroup": "lop_ghep",
+    "meals": [
+      {
+        "name": "Bữa sáng chính (07:30)",
+        "dishes": [
+          {
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_07",
+                "quantityPerChild": 50
+              },
+              {
+                "ingredientId": "thit_thuy_san_22",
+                "quantityPerChild": 25
+              },
+              {
+                "ingredientId": "gia_vi_03",
+                "quantityPerChild": 1.5
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_04"
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "tinh_bot_06"
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "gia_vi_11"
+              },
+              {
+                "ingredientId": "custom_1789384528938",
+                "quantityPerChild": 1000
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_23"
+              },
+              {
+                "quantityPerChild": 3,
+                "ingredientId": "chat_beo_01"
+              }
+            ],
+            "name": "Bún thịt bằm mầm non cuối tuần",
+            "id": "dish_sáng_t7"
+          }
+        ],
+        "id": "meal_sáng"
+      },
+      {
+        "dishes": [
+          {
+            "id": "dish_cơm_t7",
+            "name": "Cơm tẻ dẻo mầm non",
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_01",
+                "quantityPerChild": 70
+              }
+            ]
+          },
+          {
+            "id": "dish_mặn_t7",
+            "ingredients": [
+              {
+                "quantityPerChild": 1,
+                "ingredientId": "gia_vi_03"
+              },
+              {
+                "quantityPerChild": 30,
+                "ingredientId": "thit_thuy_san_22"
+              },
+              {
+                "quantityPerChild": 30,
+                "ingredientId": "sua_trung_03"
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "gia_vi_11"
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "chat_beo_01"
+              }
+            ],
+            "name": "Thịt kho trứng cút"
+          },
+          {
+            "name": "Canh củ dền thịt gà ta đỏ mọng",
+            "ingredients": [
+              {
+                "quantityPerChild": 10,
+                "ingredientId": "thit_thuy_san_06"
+              },
+              {
+                "quantityPerChild": 1,
+                "ingredientId": "gia_vi_03"
+              },
+              {
+                "ingredientId": "custom_1789387659028",
+                "quantityPerChild": 30
+              },
+              {
+                "ingredientId": "gia_vi_11",
+                "quantityPerChild": 2
+              },
+              {
+                "quantityPerChild": 1,
+                "ingredientId": "chat_beo_01"
+              }
+            ],
+            "id": "dish_canh_t7"
+          },
+          {
+            "name": "Tráng miệng: Chuối tiêu ngọt",
+            "ingredients": [
+              {
+                "ingredientId": "trai_cay_02",
+                "quantityPerChild": 30
+              }
+            ],
+            "id": "dish_tráng_miệng_t7"
+          }
+        ],
+        "id": "meal_trưa",
+        "name": "Bữa trưa dinh dưỡng (10:30)"
+      },
+      {
+        "dishes": [
+          {
+            "name": "Miến thịt gà xé nhỏ thơm ngon",
+            "ingredients": [
+              {
+                "ingredientId": "tinh_bot_24",
+                "quantityPerChild": 40
+              },
+              {
+                "quantityPerChild": 25,
+                "ingredientId": "thit_thuy_san_06"
+              },
+              {
+                "ingredientId": "gia_vi_03",
+                "quantityPerChild": 1
+              },
+              {
+                "quantityPerChild": 20,
+                "ingredientId": "rau_cu_qua_04"
+              },
+              {
+                "ingredientId": "tinh_bot_06",
+                "quantityPerChild": 20
+              },
+              {
+                "quantityPerChild": 2,
+                "ingredientId": "gia_vi_11"
+              },
+              {
+                "ingredientId": "rau_cu_qua_23",
+                "quantityPerChild": 20
+              },
+              {
+                "ingredientId": "chat_beo_01",
+                "quantityPerChild": 1
+              },
+              {
+                "quantityPerChild": 35,
+                "ingredientId": "custom_1789474193059"
+              }
+            ],
+            "id": "dish_xế_t7"
+          }
+        ],
+        "id": "meal_xế_chiều",
+        "name": "Bữa phụ xế chiều (14:30)"
+      }
+    ],
+    "updatedAt": "15/9/2026",
+    "budgetPerChild": 35000,
+    "name": "Thứ 7"
+  }
+];

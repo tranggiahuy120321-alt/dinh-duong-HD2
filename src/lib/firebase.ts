@@ -2,6 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { 
   getFirestore, 
+  initializeFirestore,
   collection, 
   doc, 
   setDoc, 
@@ -17,8 +18,10 @@ import firebaseConfig from '../../firebase-applet-config.json';
 // Khởi tạo ứng dụng Firebase
 const app = initializeApp(firebaseConfig);
 
-// Khởi tạo Firestore với database ID từ tệp cấu hình
-export const db = getFirestore(app, firebaseConfig.firestoreDatabaseId || '(default)');
+// Khởi tạo Firestore với long-polling để đảm bảo tương thích hoàn hảo trong môi trường iframe và proxy sandbox
+export const db = initializeFirestore(app, {
+  experimentalForceLongPolling: true,
+}, firebaseConfig.firestoreDatabaseId || undefined);
 export const auth = getAuth(app);
 
 // === TIỆN ÍCH XỬ LÝ LỖI FIRESTORE CHUẨN HOÁ ===

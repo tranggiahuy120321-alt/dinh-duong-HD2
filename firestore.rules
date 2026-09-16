@@ -46,5 +46,10 @@ service cloud.firestore {
       allow update: if isValidId(menuId) && isValidSavedMenu(request.resource.data);
       allow delete: if isValidId(menuId);
     }
+
+    // Health check / connection test
+    match /test/connection {
+      allow get: if true;
+    }
   }
 }

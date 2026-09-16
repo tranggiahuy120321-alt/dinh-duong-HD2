@@ -55,6 +55,16 @@
         "meals",
         "updatedAt"
       ]
+    },
+    "TestConnection": {
+      "title": "TestConnection",
+      "description": "Health check connection document",
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string"
+        }
+      }
     }
   },
   "firestore": {
@@ -65,6 +75,10 @@
     "saved_menus/{menuId}": {
       "schema": "SavedMenu",
       "description": "Danh sách thực đơn dinh dưỡng đã lưu của trường"
+    },
+    "test/connection": {
+      "schema": "TestConnection",
+      "description": "Kiểm tra kết nối Firestore lúc khởi động"
     }
   }
 }
